@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root{
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+a,img,video{
+    cursor: pointer;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    width: 124px;
+    height: 124px;
+    font-size: 1.4em;
+    font-weight: 800;
+    justify-content: center;
+    margin-left: 100px;
+    box-shadow: silver 3px 5px 10px;
+}
+
+.topics{
+    margin: 10% auto;
+    width: 60vw;
+    height: 20vw;
+    box-shadow: silver 3px 5px 10px;
+}
+h2{
+    text-align: center;
+    color: rgb(255 149 7);
+}
+.ul-list{
+
+    position: absolute;
+}
+.ul-lis{
+    display: flex;
+    flex-direction: row;
+}
+.topic{
+    background: url(../img/checklist.png) no-repeat;
+
+}
+.highway{
+    background: url(../img/64360.png) no-repeat;
+
+}
+.signs{
+    background: url(../img/road-signs-1607529-1364694.png) no-repeat;
+
+}
+.theme{
+    display: inline-block;
+   margin: 30px;
+    position: relative;
+    color: rgb(255 35 45);
+}

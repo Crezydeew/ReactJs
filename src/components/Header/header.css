@@ -1,0 +1,23 @@
+.nav_bar{
+	display: flex;
+	margin-bottom: 50px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 1.3rem;
+}
+.logo{
+	flex: 1;
+	left: 100px;
+	position: absolute;
+}
+.right_panel, .logo{
+	top: 50px;
+}
+.right_panel{
+	flex: 2;
+	right:95px;
+	position: absolute;
+}
+.right_panel ul li {
+	float: left;
+	margin: 0 5px;
+}

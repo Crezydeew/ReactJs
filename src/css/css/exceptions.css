@@ -1,0 +1,36 @@
+:root{
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a,img,video,button{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+button,input{
+    outline: none;
+}
+
+body{
+	margin: 0 auto;
+	overflow-x: hidden;
+    font-size: 1.2rem;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #ffffff;
+	background-color:rgb(6 9 18);
+	background-image: url("img/logo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}

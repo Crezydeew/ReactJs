@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+ #footer__bg{
+ 	position: absolute;
+ 	width: 100%;
+ 	bottom: -100px;
+ }
+  a{
+ 	font-size: 12px;
+
+ }
+
+
+}
+
+@media screen and (min-width: 1025px){
+ #footer__bg{
+ 	position: absolute;
+ 	width: 100%;
+ }
+  .header__link{
+ 	font-size: 20px;
+
+ }
+  #rect{
+ 	width: 400px;
+ 	height: 400px;
+ }
+}
+@media screen and (min-width: 411px) and (max-width:  768px){
+
+ #footer__bg{
+ 	position: absolute;
+ 	width: 100%;
+ }
+ a{
+ 	font-size: 6px;
+
+ }
+ .header__list_ul{
+ 	    margin: 15px 0px 0px auto;
+ }
+  .header__logo{
+  	margin: 5px 5px;
+  	  }
+  	  .header__logo img{
+  	  	width: 40px;
+  	  	height: 40px;
+  	  }
+
+ #rect{
+ 	width: 150px;
+ 	height: 150px;
+ }
+}
